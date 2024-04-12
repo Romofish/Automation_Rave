@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
 # 指定 ChromeDriver 路径
-driver_path = r'C:\Flora\Automation\backend\chromedriver.exe'
+driver_path = './backend/chromedriver.exe'
 service = Service(executable_path=driver_path)
 
 # 指定 Chrome 用户数据目录路径
